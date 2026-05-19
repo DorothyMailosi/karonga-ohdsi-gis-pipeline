@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@type": "Dataset",
+  "@id": "karonga_era5_climate_2015_2021",
+  "name": "Karonga ERA5 Climate Exposure Dataset",
+  "description": "ERA5 climate variables for Karonga HDSS, Malawi, used to derive flood and heat exposure indicators for OMOP EXTERNAL_EXPOSURE.",
+  "temporalCoverage": "2015-01-01/2021-12-31",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Karonga HDSS",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-10.4 33.4 -9.2 34.3"
+    }
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "2m_temperature",
+      "description": "Temperature exposure used for heat-stress and climate-health analysis."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2m_dewpoint_temperature",
+      "description": "Used with temperature to derive humidity-related exposure indicators."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "total_precipitation",
+      "description": "Used to derive rainfall totals, flood occurrence, intensity, and duration."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "10m_u_component_of_wind",
+      "description": "Used with v-component wind to derive wind speed."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "10m_v_component_of_wind",
+      "description": "Used with u-component wind to derive wind speed."
+    }
+  ],
+  "isBasedOn": "Copernicus ERA5 reanalysis data",
+  "measurementTechnique": "Hourly ERA5 data retrieved through the Copernicus Climate Data Store API and aggregated into daily and monthly exposure indicators."
+}

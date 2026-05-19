@@ -1,0 +1,9 @@
+cdsapi
+pandas
+xarray
+netCDF4
+rasterio
+requests
+geemap
+earthengine-api
+psycopg2-binary

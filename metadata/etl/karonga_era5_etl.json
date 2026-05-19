@@ -1,0 +1,34 @@
+{
+  "dataset_id": "karonga_era5_climate_2015_2021",
+  "dataset": "reanalysis-era5-single-levels",
+  "source": "Copernicus Climate Data Store",
+  "api": "cdsapi",
+  "output_directory": "raw/era5",
+  "variables": [
+    "2m_temperature",
+    "2m_dewpoint_temperature",
+    "total_precipitation",
+    "10m_u_component_of_wind",
+    "10m_v_component_of_wind"
+  ],
+  "temporal_coverage": {
+    "start_year": 2015,
+    "end_year": 2021
+  },
+  "spatial_coverage": {
+    "north": -9.2,
+    "west": 33.4,
+    "south": -10.4,
+    "east": 34.3
+  },
+  "times": "hourly",
+  "data_format": "netcdf",
+  "download_format": "unarchived",
+  "processing_rules": [
+    "derive_daily_precipitation",
+    "derive_monthly_flood_indicators",
+    "derive_temperature_celsius",
+    "derive_relative_humidity",
+    "derive_wind_speed"
+  ]
+}
