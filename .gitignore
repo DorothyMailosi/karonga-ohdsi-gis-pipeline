@@ -1,0 +1,10 @@
+.idea/
+raw/
+processed/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.cdsapirc
+~$*.docx
