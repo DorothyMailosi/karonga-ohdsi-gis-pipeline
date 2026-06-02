@@ -272,15 +272,9 @@ Register and integrate:
 
 ---
 
-## Long-Term Goal
 
-Develop a reusable metadata-driven workflow where environmental datasets are:
-
-1. Registered in GaiaCore backbone tables
-2. Retrieved automatically
-3. Processed into standardized exposure indicators
-4. Loaded into backbone exposure tables
-5. Integrated into OMOP EXTERNAL_EXPOSURE
-6. Analysed using OHDSI tools
+###  Loaded into backbone exposure tables
+### Integrated into OMOP EXTERNAL_EXPOSURE
+### Analysed using OHDSI tools
 
 The workflow is designed to support climate-health research across multiple HDSS sites and environmental datasets.
