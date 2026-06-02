@@ -59,7 +59,7 @@ OHDSI Analytics
 ### 2. Exposure Workflow (Novel Component)
 
 ```text
-ERA5 Climate Data
+ Climate Data metadata
         ↓
 GaiaCatalog Metadata Registration
         ↓
