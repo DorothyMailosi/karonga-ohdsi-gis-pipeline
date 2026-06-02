@@ -20,7 +20,7 @@ The objective is to develop a reusable and standardized workflow for deriving en
 
 ### Research Question
 
-Are flood-related environmental exposures associated with increased infectious disease mortality in the Karonga HDSS population?
+Are flood-related environmental exposures associated with increased climate-sensitive infectious disease mortality in the Karonga HDSS population?
 
 ### Outcomes of Interest
 
