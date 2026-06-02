@@ -232,9 +232,6 @@ This project aligns with:
 * GaiaCatalog
 * gaiaCore
 * FAIR Principles
-* CDIF4EOSC
-* I-ADOPT Variable Framework
-* Essential Variables (EV) discussions within RDA
 
 ---
 
